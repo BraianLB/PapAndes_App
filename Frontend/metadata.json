@@ -1,0 +1,7 @@
+{
+  "name": "Papandes - Potato Crop Management",
+  "description": "An advanced agro-tech management platform for potato farmers, featuring financial analysis, crop lot monitoring, and AI-powered disease diagnosis.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
