@@ -9,6 +9,7 @@ export const translations = {
       inventory: 'Inventario',
       operations: 'Operaciones',
       settings: 'Configuraciones',
+      community: 'Comunidad',
       export: 'Exportar Reporte',
       logout: 'Cerrar Sesión'
     },
@@ -131,6 +132,18 @@ export const translations = {
       analyzing: 'Analizando cultivos...',
       suggestions: ['Plan de riego', 'Síntomas de tizón tardío', 'NPK Fertilizantes', 'Impacto pH suelo'],
       disclaimer: 'La IA puede cometer errores. Verifica información técnica.'
+    },
+    community: {
+      newPost: 'Nueva Publicación',
+      voiceNote: 'Nota de Voz',
+      photo: 'Foto',
+      text: 'Texto',
+      like: 'Me Gusta',
+      comment: 'Comentar',
+      message: 'Mensaje',
+      messagesTitle: 'Mensajes',
+      typeMessage: 'Escribe un mensaje...',
+      publish: 'Publicar'
     }
   },
   en: {
@@ -142,6 +155,7 @@ export const translations = {
       inventory: 'Inventory',
       operations: 'Operations',
       settings: 'Settings',
+      community: 'Community',
       export: 'Export Report',
       logout: 'Sign Out'
     },
@@ -264,6 +278,18 @@ export const translations = {
       analyzing: 'Analyzing crops...',
       suggestions: ['Irrigation plan', 'Late blight symptoms', 'NPK Fertilizer', 'Soil pH impacts'],
       disclaimer: 'AI can make mistakes. Verify technical information.'
+    },
+    community: {
+      newPost: 'New Post',
+      voiceNote: 'Voice Note',
+      photo: 'Photo',
+      text: 'Text',
+      like: 'Like',
+      comment: 'Comment',
+      message: 'Message',
+      messagesTitle: 'Messages',
+      typeMessage: 'Type a message...',
+      publish: 'Publish'
     }
   }
 };

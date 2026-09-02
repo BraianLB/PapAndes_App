@@ -7,7 +7,8 @@ export enum NavPage {
   LOTS = 'lots',
   INVENTORY = 'inventory',
   OPERATIONS = 'operations',
-  SETTINGS = 'settings'
+  SETTINGS = 'settings',
+  COMMUNITY = 'community'
 }
 
 export type Language = 'es' | 'en';
@@ -51,4 +52,37 @@ export interface Activity {
   estado: string;
   lote_nombre: string;
   lote_ubicacion: string;
+}
+
+export interface SocialUser {
+  id: string;
+  name: string;
+  avatar: string;
+  location: string;
+}
+
+export interface SocialComment {
+  id: string;
+  user: SocialUser;
+  text: string;
+  createdAt: string;
+}
+
+export interface SocialPost {
+  id: string;
+  user: SocialUser;
+  text?: string;
+  imageUrl?: string;
+  audioUrl?: string; // para reproducir notas de voz
+  likes: number;
+  comments: SocialComment[];
+  createdAt: string;
+}
+
+export interface SocialMessage {
+  id: string;
+  senderId: string;
+  text?: string;
+  audioUrl?: string;
+  createdAt: string;
 }

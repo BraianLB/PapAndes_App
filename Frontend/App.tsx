@@ -9,6 +9,7 @@ import LotManagement from './pages/LotManagement';
 import Inventory from './pages/Inventory';
 import OperationsRegistry from './pages/OperationsRegistry';
 import Settings from './pages/Settings';
+import Community from './pages/Community';
 import Sidebar from './components/Sidebar';
 
 const App: React.FC = () => {
@@ -46,6 +47,7 @@ const App: React.FC = () => {
       case NavPage.LOTS: return <LotManagement language={language} />;
       case NavPage.INVENTORY: return <Inventory language={language} />;
       case NavPage.OPERATIONS: return <OperationsRegistry language={language} />;
+      case NavPage.COMMUNITY: return <Community language={language} />;
       case NavPage.SETTINGS: return (
         <Settings 
           isDarkMode={isDarkMode} 

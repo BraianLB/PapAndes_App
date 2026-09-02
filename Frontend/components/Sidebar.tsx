@@ -20,6 +20,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, onNavigate, onLogout, lan
     { id: NavPage.LOTS, label: t.lots, icon: 'potted_plant' },
     { id: NavPage.INVENTORY, label: t.inventory, icon: 'inventory_2' },
     { id: NavPage.OPERATIONS, label: t.operations, icon: 'event_list' },
+    { id: NavPage.COMMUNITY, label: t.community, icon: 'groups' },
     { id: NavPage.SETTINGS, label: t.settings, icon: 'settings' },
   ];
 
